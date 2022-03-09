@@ -33,6 +33,12 @@ body{
     text-decoration: none;
     display: inline-block;
 }
+.Header__logo:hover{ 
+    opacity: 0.8;
+}
+.Header__logo:active{ 
+    opacity: 0.6;
+}
 .Header__logo-img {
     width: 277px;
     height: 60px;
@@ -47,6 +53,10 @@ body{
     margin-right: 32px;
     position: relative;
 }
+.header__nav-item:hover{
+    color: #ff7500;
+}
+
 .header__active{ 
     border-bottom: 3px solid #ff7500;
 }
@@ -63,6 +73,12 @@ body{
     letter-spacing: 1px;
     color: #000;
 }
+.header__nav-item a:hover{ 
+    color: #ff7500;
+}
+.header__nav-item a:active{ 
+    opacity: 0.6;
+}
 .orange-btn {
     padding: 12px 24px;
     background-color: #ff7500;
@@ -74,6 +90,12 @@ body{
     letter-spacing: 0.5px;
     text-decoration: none;
     display: inline-block;
+}
+.orange-btn:hover{ 
+    opacity: 0.8;
+}
+.orange-btn:active{ 
+    opacity: 0.6;
 }
 .orange-hr {
     background-color: #ff7500;
@@ -222,6 +244,12 @@ margin-bottom: -140px;
     height: 60px;
     display: flex;
 }
+.footer__logo:hover{ 
+    opacity: 0.8;
+}
+.footer__logo:active{ 
+    opacity: 0.6;
+}
 .footer__top-social-media-item {
     display: flex;
     align-items: center;
@@ -231,10 +259,13 @@ margin-bottom: -140px;
 .footer__top-social-media-item:last-child{ 
     margin-right: 0;
 }
-.footer__top-social-media-item a { 
+.footer__top-social-media-item i { 
     text-decoration: none;
     color: #252420;
     font-size: 24px;
+}
+.footer__top-social-media-item i:hover{ 
+    color: #ff7500;
 }
 
     /* FOOTER HR*/
@@ -262,4 +293,10 @@ margin-bottom: -140px;
         text-decoration: none;
         color: #252420;
         line-height: 18.25px;
+    }
+    .footer__bottom-section-item a:hover{ 
+        color: #ff7500;
+    }
+    .footer__bottom-section-item a:active{ 
+        opacity: 0.6;
     }
